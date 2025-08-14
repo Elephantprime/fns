@@ -1,0 +1,1 @@
+Placeholder for content_creator_kit/templates/video_script_template.md
