@@ -1,1 +1,0 @@
-Placeholder for content_creator_kit/templates/caption_bank.txt
