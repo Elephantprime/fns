@@ -1,0 +1,1 @@
+Enrollment includes 30 days of access from purchase date. Extensions via renewal. Digital refunds within 7 days if not accessed.

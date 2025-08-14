@@ -1,0 +1,21 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+body{font-family:Inter,system-ui;display:flex;align-items:center;justify-content:center;height:100vh;background:#f4f7fb;margin:0}
+.card{width:900px;background:#fff;border:8px solid #111;border-radius:12px;padding:40px;box-shadow:0 20px 60px rgba(0,0,0,.08)}
+h1{margin:0 0 6px} .muted{color:#666}
+.badge{margin-top:20px;padding:10px 14px;border-radius:999px;background:#111;color:#fff;display:inline-block;font-weight:700}
+</style></head><body>
+<div class="card">
+  <h1>Certificate of Completion</h1>
+  <p class="muted">AI Certified — 30‑Day Challenge</p>
+  <h2 id="name">Student Name</h2>
+  <p>has successfully completed the program and demonstrated proficiency across text, image, video and automation workflows.</p>
+  <div class="badge">CERTIFIED AI EXPERT</div>
+  <p class="muted" style="margin-top:30px">Date: <span id="date"></span></p>
+</div>
+<script>
+document.getElementById('name').textContent = new URLSearchParams(location.search).get('name') || 'Student Name';
+document.getElementById('date').textContent = new Date().toLocaleDateString();
+</script>
+</body></html>
